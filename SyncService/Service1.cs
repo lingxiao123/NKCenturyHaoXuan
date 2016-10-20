@@ -26,6 +26,7 @@ namespace SyncService
         {
             string sql = "select * from NeedSyncList where IsSync=0";
             DataTable dt = new DataTable();
+            string str = "";
             try
             {
                 dt = DBAccess.QueryDataTable("ConnectionString",sql,null);
