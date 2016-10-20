@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncService", "SyncService\SyncService.csproj", "{DF477E10-7156-418C-9EE1-EAB416D839B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCodeTagPrintSystem", "BarCodeTagPrintSystem\BarCodeTagPrintSystem.csproj", "{9C724CC0-107D-42CA-87F6-9D14F4903D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllReference", "DllReference\DllReference.csproj", "{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtility", "DBUtility\DBUtility.csproj", "{E2A29B52-F962-4CC0-AAB9-22171104B143}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{DF477E10-7156-418C-9EE1-EAB416D839B0}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{9C724CC0-107D-42CA-87F6-9D14F4903D44}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{FF55DFFF-F7DB-46C2-A80A-79F6F1D15C73}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A29B52-F962-4CC0-AAB9-22171104B143}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://foraise.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SyncService\\SyncService.csproj
+		SccProjectName1 = SyncService
+		SccLocalPath1 = SyncService
+		SccProjectUniqueName2 = BarCodeTagPrintSystem\\BarCodeTagPrintSystem.csproj
+		SccProjectName2 = BarCodeTagPrintSystem
+		SccLocalPath2 = BarCodeTagPrintSystem
+		SccProjectUniqueName3 = DllReference\\DllReference.csproj
+		SccProjectName3 = DllReference
+		SccLocalPath3 = DllReference
+		SccProjectUniqueName4 = DBUtility\\DBUtility.csproj
+		SccProjectName4 = DBUtility
+		SccLocalPath4 = DBUtility
+	EndGlobalSection
+EndGlobal
